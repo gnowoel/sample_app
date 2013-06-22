@@ -11,14 +11,12 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-group :developemnt do
+group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
 end
 
 group :test do
-  gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails', '2.11.0'
   gem 'capybara', '1.1.2'
 end
 
